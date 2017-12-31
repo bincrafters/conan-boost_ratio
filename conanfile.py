@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostRatioConan(ConanFile):
     name = "boost_ratio"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-ratio"
+    url = "https://github.com/bincrafters/conan-boost_ratio"
 
     lib_short_names = ["ratio"]
     is_header_only = True
