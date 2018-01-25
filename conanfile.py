@@ -8,7 +8,8 @@ class BoostRatioConan(ConanFile):
     name = "boost_ratio"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_ratio"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["ratio"]
     is_header_only = True
 
